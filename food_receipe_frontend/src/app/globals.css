@@ -5,6 +5,16 @@
   --color-secondary: #FFFFFF;
   --color-accent: #3B82F6;
   --color-background: #FFFFFF;
+
+  /* Product Burger theme tokens (Ocean Professional) */
+  --primary: #2563EB;
+  --secondary: #F59E0B;
+  --error: #EF4444;
+  --bg: #f9fafb;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #6B7280;
+  --ring: 0 0 0 3px rgba(37, 99, 235, 0.3);
 }
 
 * {
@@ -23,4 +33,17 @@ body {
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* a11y helper */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
